@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background-image: linear-gradient(to bottom right, #111d5e, #c70039, #f37121);
+}
+p{
+  font-size: 19px;
+}
+#body{
+  width: 620px;
+  padding: 20px 0;
+  margin: auto;
+  text-align: left;
+  background-color:rgba(0,0,0,0.3);
+  border-radius: 5px;
+  color: white;
+  padding-left: 15px;
+}
+#name,#email,#number,#dropdown{
+  width: 95%;
+  text-align:center;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+textarea{
+  width: 600px;
+  height: auto;
+}
+#textarea{
+  display:flex;
+  margin-top: 20px;
+}
+h1{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  text-shadow: 3px 3px #f37121;
+}
+
+#description{
+  margin-top: -25px;
+  letter-spacing: 1px;
+  color:white;
+  text-shadow: 1px 1px #f37121;
+}
+
+label{
+  padding-bottom 500px;
+  text-transform: uppercase;
+  font-size: 17px; 
+}
+#submit{
+  width: 608px;
+  margin-top: 24px;
+  border-radius: 5px;
+  padding: 20px;
+  border: none;
+  color: white;
+  background-color: green;
+}
+#comment{
+  border-radius: 5px;
+  border: none;
+}

@@ -1,0 +1,50 @@
+<html>
+    <head>
+      <title>Simple Form Survey</title>
+      <link type="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <h1 id="title">Formulario</h1>
+      <p id="description">Software Feedback</p>
+      <h2></h2>
+      <div id="body">
+      <form id="survey-form">
+        <label id="name-label">Nombre</label>
+        <br>
+        <input type="text" id="name" placeholder="'Adrian'" value="" required>
+        <br>
+        <label id="email-label">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="'vos@empresa.com'" value="" required>
+        <br>
+        <label id="number-label">Edad</label>
+        <br>
+        <input type="number" id="number" placeholder="'25'" min="18" max="50" required>
+        
+        
+        <p>¿Que impacto genera el sistema en tu vida cotidiana?</p>
+        <select id="dropdown">
+          <option value="default">Ninguno</option>
+          <option value="Impacto no significativo">Pequeño Impacto</option>
+          <option value="Impacto significativo">Impacto significativo</option>
+        </select><br>
+            
+            <p>¿En qué medio nos conociste?</p>
+        <input type="radio" name="redes" value="1"> Instagram </input><br>
+<input type="radio" name="redes" value="2"> Facebook </input><br>
+<input type="radio" name="redes" value="3"> Google</input>
+      
+
+<p>¿De qué zona sos?</p>
+<input type="checkbox" name="Buenos Aires" value="1">Buenos Aires</input><br>
+<input type="checkbox" name="Capital Federal" value="2">Capital Federal</input><br>
+<input type="checkbox" name="Cordoba" value="3">Córdoba</input>
+<br>
+<label id="textarea">Los feedback mejoran nuestro servicio día a día, podes dejarnos el tuyo a continuación</label>
+<br>
+<textarea id="comment" name="" rows="4" cols="40"></textarea>
+<br>
+<input id="submit" type="submit" value="Enviar"></input>
+</form></div>
+    </body>
+</html>
